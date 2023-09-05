@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>React</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1>Inscreva-se para saber mais!</h1>
+    </header>
+    <main class="main">
+      <form action="/cadastro/save" method="POST">
+        <label for="name">
+          <p>Nome:</p>
+          <input type="text" name="name" id="name" />
+        </label>
+        <label for="email">
+          <p>Email:</p>
+          <input type="email" name="email" id="email" />
+        </label>
+        <button type="submit">Enviar</button>
+      </form>
+    </main>
+  </body>
+</html>
